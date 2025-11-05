@@ -15,7 +15,7 @@
 
 請按照以下資料結構擺放
 
-
+```
 project/
 ├── checkpoints/
 │   └── sam2.1_hiera_large.pt      # 模型權重
@@ -32,7 +32,7 @@ project/
 │       ├── app.js
 │       └── object_viewer_new.js
 └── results/                       # 結果資料（執行後自動創建）
-
+```
 
 
 ##
@@ -42,3 +42,4 @@ project/
 (https://github.com/facebookresearch/sam2/blob/main/sam2/configs/sam2.1/sam2.1_hiera_l.yaml)
 
 (https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt)
+
