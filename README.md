@@ -10,22 +10,25 @@
 1.checkpoint/sam2.1_hiera_large.pt
 2.configs/sam2.1_hiera_l.yaml
 請按照以下資料結構擺放
+##
 project/
 ├── checkpoints/
 │   └── sam2.1_hiera_large.pt      # 模型權重
 ├── configs/
 │   └── sam2.1_hiera_l.yaml        # 模型配置
 ├── backend/
-│   ├── app.py                     # 你的主程式
+│   ├── app.py                     # 主程式
 │   └── modules/
-│       └── sam2_segmenter.py      # 你的 SAM2 包裝器
-├──frontend/
-|   ├── photo_viewer_backup.html
-|   ├── photo_viewer.html          # 網頁主要程式
+│       └── sam2_segmenter.py      # SAM2 包裝器
+├── frontend/
+│   ├── photo_viewer_backup.html
+│   ├── photo_viewer.html          # 網頁主程式
 │   ├── js/
 │       ├── app.js
 │       └── object_viewer_new.js
-└── results/                       # 結果儲存位置 (資料夾會自動創建)
+└── results/                       # 結果資料（執行後自動創建）
+##
 
-以下是相關檔案連結
-https://github.com/facebookresearch/sam2
+以下是相關檔案下載連結
+(https://github.com/facebookresearch/sam2/blob/main/sam2/configs/sam2.1/sam2.1_hiera_l.yaml)
+(https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt)
