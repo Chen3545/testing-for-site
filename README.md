@@ -6,9 +6,13 @@
 
 # how to use
 首先先補齊所有缺失的檔案
+
 現在有2個檔案需要補齊
+
 1.checkpoint/sam2.1_hiera_large.pt
+
 2.configs/sam2.1_hiera_l.yaml
+
 請按照以下資料結構擺放
 
 
@@ -27,7 +31,8 @@ project/
 │   └── js/
 │       ├── app.js
 │       └── object_viewer_new.js
-└── results/                       # 結果資料，執行後自動創建
+└── results/                       # 結果資料（執行後自動創建）
+
 
 
 ##
