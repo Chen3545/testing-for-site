@@ -13,35 +13,20 @@
 
 
 project/
-
 ├── checkpoints/
-
 │   └── sam2.1_hiera_large.pt      # 模型權重
-
 ├── configs/
-
 │   └── sam2.1_hiera_l.yaml        # 模型配置
-
 ├── backend/
-
 │   ├── app.py                     # 主程式
-
 │   └── modules/
-
 │       └── sam2_segmenter.py      # SAM2 包裝器
-
 ├── frontend/
-
 │   ├── photo_viewer_backup.html
-
 │   ├── photo_viewer.html          # 網頁主程式
-
 │   └── js/
-
 │       ├── app.js
-
 │       └── object_viewer_new.js
-
 └── results/                       # 結果資料，執行後自動創建
 
 
