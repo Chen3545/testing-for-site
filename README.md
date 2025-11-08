@@ -43,3 +43,9 @@ project/
 
 (https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt)
 
+網頁要啟動的話
+請先去backend中 執行app.py這個程式檔
+然後網頁內容則在frontend 叫做photo_viewer.html
+
+需要等後端成功上線後再打開網頁
+網頁右上角應該會有與後端成功連結的圖示
